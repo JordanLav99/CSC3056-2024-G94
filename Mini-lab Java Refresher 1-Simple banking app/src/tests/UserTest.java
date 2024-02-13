@@ -44,6 +44,11 @@ public class UserTest {
             System.out.println(TestUtils.TEXT_COLOR_RED + "TestConstructor-TC5 failed: mobile number did not match" + TestUtils.TEXT_COLOR_RESET);
         
         assert testUser.getUsername() == test_username;
+        assert testUser.getPassword() == test_password;
+        assert testUser.getFirst_name() == test_first_name;
+        assert testUser.getLast_name() == test_last_name;
+        assert testUser.getMobile_number() == test_mobile_number;
+
         
     }
     

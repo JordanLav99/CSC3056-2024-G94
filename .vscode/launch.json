@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "SimpleBankingApp",
+            "request": "launch",
+            "mainClass": "app.SimpleBankingApp",
+            "projectName": "Mini-lab Java Refresher 1-Simple banking app"
+        },
+        {
+            "type": "java",
             "name": "Launch Current File",
             "request": "launch",
             "mainClass": "${file}"

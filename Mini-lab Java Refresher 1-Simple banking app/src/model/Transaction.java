@@ -28,10 +28,10 @@ public class Transaction {
 	public void setTransaction_date(Date transaction_date) {
 		this.transaction_date = transaction_date;
 	}
-	public Transaction(String account_number, double transaction_amount, Date transaction_date) {
+	public Transaction(String account_number, Double transaction_amount2, Date transaction_date) {
 		super();
 		this.account_number = account_number;
-		this.transaction_amount = transaction_amount;
+		this.transaction_amount = transaction_amount2;
 		this.transaction_date = transaction_date;
 	}
 	
