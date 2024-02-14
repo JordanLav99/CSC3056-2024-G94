@@ -6,7 +6,6 @@ import utils.TestUtils;
 public class SimpleBankingAppTest {
 
     
-	// system under test (SUT):
 	//static SimpleBankingApp mainApp = new SimpleBankingApp ();
 
 	// this test method (test case) verifies if the data load feature of the class (unit or component) 
